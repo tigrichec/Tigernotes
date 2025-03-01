@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="login">
+            <h2>Вход</h2>
+            <input type="text" id="username" placeholder="Имя пользователя">
+            <button class="blue-button" onclick="login()">Войти</button>
+        </div>
+
+        <div id="notes">
+            <h2>Заметки</h2>
+            <input type="text" id="noteInput" placeholder="Введите заметку">
+            <button class="purple-button" onclick="addNote()">Добавить заметку</button>
+            <ul id="notesList"></ul>
+            <button class="blue-button" onclick="logout()">Выйти</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
